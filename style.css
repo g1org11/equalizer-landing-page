@@ -9,13 +9,13 @@ body {
   font-family: "IBM Plex Sans", sans-serif;
   font-style: normal;
   background: #f2f2f2;
+}
+header {
+  padding: 40px 24px 166px 24px;
   background-image: url(images/bg-main-mobile.png);
   background-repeat: no-repeat;
   /* background-size: contain; */
-  background-position: top 100% right 100%;
-}
-header {
-  padding: 40px 24px 68px 24px;
+  background-position: top 110% right 120%;
 }
 .header-bg {
   display: none;
@@ -26,6 +26,7 @@ header {
   margin-bottom: 64px;
 }
 header h1 {
+  width: 327px;
   font-weight: 700;
   font-size: 40px;
   line-height: 48px;
@@ -39,4 +40,86 @@ header p {
   font-size: 16px;
   line-height: 26px;
   color: #191826;
+}
+main {
+  background: #191826;
+  background-image: url(images/bg-pattern-2.svg);
+  background-repeat: no-repeat;
+  background-size: 280px 420px;
+  background-position: top 50px right 30px;
+
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.illustration {
+  transform: translateY(-100px);
+}
+.illustration img {
+  height: 430px;
+  width: 208.9719696044922px;
+}
+.main-infos {
+  background-color: #fa7453;
+  padding: 48px 36px;
+  border-radius: 12px;
+}
+.main-infos h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #fcfaf9;
+  margin-bottom: 12px;
+}
+.info {
+  width: 302px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fcfaf9;
+  margin-bottom: 35px;
+}
+.price {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 52px;
+  color: #fcfaf9;
+  display: flex;
+  margin-bottom: 32px;
+  align-items: center;
+}
+.price span {
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  color: #fcfaf9;
+  padding-left: 14px;
+}
+.main-infos button {
+  height: 61px;
+  width: 296px;
+  border-radius: 12px;
+  border: 0;
+}
+.black {
+  background: #191826;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.18px;
+  color: #fcfaf9;
+}
+.white {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.18px;
+  color: #191826;
+  margin-top: 16px;
 }
